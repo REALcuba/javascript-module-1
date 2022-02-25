@@ -1,3 +1,10 @@
 const saludo = "Halo, dunia!" // Indonesian
 const saludo = "Ciao, mondo!" // Italian
+const saludo = "ni hao, shi jie!" // Chinese
+const saludo = "Hola, mundo!" // Spanish
+const saludo = "bon jorno, mundi!" // Italian
+const saludo = "Hola, mundo!" // Spanish
+const saludo = "Hola, mundo!" // Spanish
+const saludo = "Hola, mundo!" // Spanish
+const saludo = "Hola, mundo!" // Spanish
 const saludo = "Hola, mundo!" // Spanish
