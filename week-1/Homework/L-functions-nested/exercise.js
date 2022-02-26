@@ -6,8 +6,8 @@ var mentor5 = "Yohannes";
 
 function getShoutyGreeting(name) {
 
-     ShoutyName = name.toUpperCase();
-    
+    const ShoutyName = name.toUpperCase();
+
      return `HELLO ${ShoutyName}`;
 }
 console.log(getShoutyGreeting(mentor1));
