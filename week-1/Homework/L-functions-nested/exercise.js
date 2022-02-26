@@ -8,10 +8,15 @@ function getShoutyGreeting(name) {
 
     const ShoutyName = name.toUpperCase();
 
-     return `HELLO ${ShoutyName}`;
+     return ShoutyName;
 }
-console.log(getShoutyGreeting(mentor1));
-console.log(getShoutyGreeting(mentor2));
-console.log(getShoutyGreeting(mentor3));
-console.log(getShoutyGreeting(mentor4));
-console.log(getShoutyGreeting(mentor5));
+function shoutyGreeting(name) {
+    return `HELLO ${getShoutyGreeting(name)}`
+}
+
+
+console.log(shoutyGreeting(mentor1));
+console.log(shoutyGreeting(mentor2));
+console.log(shoutyGreeting(mentor3));
+console.log(shoutyGreeting(mentor4));
+console.log(shoutyGreeting(mentor5));
