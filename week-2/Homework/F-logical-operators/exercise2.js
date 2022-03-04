@@ -16,7 +16,7 @@ function isNegative(number) {
 }
 
 function isBetween5and10(number) {
-  if (number >= 5 && number <= 10){
+  if (number >= 5 || number <= 10){
      return true;
  }else {
    return false;

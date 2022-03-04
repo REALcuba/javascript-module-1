@@ -9,5 +9,7 @@ function isEven(number) {
 
 
 for (let i=5; i < 20; i++ ){
- console.log("The exponential of "+ i + " is " +exponential(i));
+  const even = isEven(i);
+ 
+console.log("The exponential of ", even + " is " +exponential(i));
 };
