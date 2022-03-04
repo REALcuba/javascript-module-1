@@ -5,7 +5,44 @@
   Update the code so that you get the expected result.
 */
 
-function isNegative() {}
+function isNegative(number) {
+
+ if(number < 0 && number <= 10){
+   return true;
+ }else {
+   return false;
+ }
+
+}
+
+function isBetween5and10(number) {
+  if (number >= 5 && number <= 10){
+     return true;
+ }else {
+   return false;
+ }
+}
+
+function isShortName(userName) {
+  const userLength = userName.length;
+  if(userLength >= 0 && userLength <=5 ){
+     return false;
+ }else {
+   return true;
+ }
+}
+
+function startsWithD(userName) {
+  const firstLetter = userName.charAt(0);
+  const isFirstLetterCapitalice = firstLetter.toUpperCase(userName);
+  const equalFirstLetter = firstLetter === isFirstLetterCapitalice ;
+
+  if(equalFirstLetter && firstLetter){
+     return true;
+ }else {
+   return false;
+ }
+}
 
 /* 
   DO NOT EDIT BELOW THIS LINE
