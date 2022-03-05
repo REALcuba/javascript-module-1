@@ -8,8 +8,10 @@ function isEven(number) {
 }
 
 
-for (let i=5; i < 20; i++ ){
-  const even = isEven(i);
+for (let number=5; number < 20; number++ ){
+ if(isEven(number)) {
+
+
  
-console.log("The exponential of ", even + " is " +exponential(i));
+console.log("The exponential of ",  + number + " is " +exponential(number)); }
 };
