@@ -13,8 +13,6 @@ function getShoutyGreeting(name) {
 function shoutyGreeting(name) {
     return `HELLO ${getShoutyGreeting(name)}`
 }
-
-
 console.log(shoutyGreeting(mentor1));
 console.log(shoutyGreeting(mentor2));
 console.log(shoutyGreeting(mentor3));
