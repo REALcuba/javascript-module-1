@@ -6,30 +6,19 @@
 */
 
 function isNegative(number) {
-
- if(number < 0 && number <= 10){
-   return true;
- }else {
-   return false;
- }
+   return number < 0;
 
 }
 
 function isBetween5and10(number) {
-  if (number >= 5 || number <= 10){
-     return true;
- }else {
-   return false;
- }
+  return number >= 5 && number <= 10
+  
 }
 
 function isShortName(userName) {
   const userLength = userName.length;
-  if(userLength >= 0 && userLength <=5 ){
-     return false;
- }else {
-   return true;
- }
+  return userLength >= 0 && userLength <=6 ;
+ 
 }
 
 function startsWithD(userName) {
