@@ -10,11 +10,8 @@
 
 function containsCode(sentence) {
 const word = "code";
-if(sentence.includes(word)){
-  return true;
-} else {
-  return false;
-}
+const isInclude = sentence.includes(word)
+return isInclude;
 }
 
 /* 
