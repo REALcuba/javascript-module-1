@@ -14,6 +14,14 @@ const daysOfWeek = [
   "Sunday",
 ];
 
-function stringStartT(arr) {
-  
+function startWithT(arr) {
+  const tArray = [];
+ for (let i = 0; i < arr.length; i++){
+   let day = arr[i];
+   if(day.startsWith("T")){
+     console.log(day);
+   }
+   
+ }
 }
+startWithT(daysOfWeek);
