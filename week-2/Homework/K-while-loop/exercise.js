@@ -10,6 +10,11 @@ let n = 10;
 
 function sumTillNum(num){
 	//your code here
+	while(num >= 0 && num <= n) {
+		num += num
+	num++;
+      
+	}
 }
 
 console.log("Sum from 0 to " + n + " is: " + sumTillNum(n));
