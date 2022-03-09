@@ -7,8 +7,8 @@ let secondClass = ["Tamara", "Vincent"]
 
 function nameIncluded(name, arr) {
     if(arr.includes(name)){
-        console.log(`${name} is at the class with people in the array`);
-    }else{console.log(`${name} is not at the class with <people in the array`)}
+        console.log(`${name} is at the class with ${totalClass}`);
+    }else{console.log(`${name} is not at the class with ${totalClass}`)}
 }
 
 nameIncluded("joselin", totalClass);
