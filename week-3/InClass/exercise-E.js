@@ -5,7 +5,7 @@ const age = 2022 - birthYear
 console.log(age) 
 }
 
-// doubt abot this
+// not sure
  const ageArr =  yearArray.forEach(ageFinder)
  
 
