@@ -16,4 +16,4 @@ function magician() {
 
   return magicOutput;
 }
-magician()
+console.log(magician())
