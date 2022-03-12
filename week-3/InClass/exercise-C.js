@@ -1,4 +1,4 @@
-function magician() {
+function magician(yourFunc) {
   console.log(
     "I am magician! Watch as I mutate an array of strings to your heart's content!"
   );
@@ -10,25 +10,19 @@ function magician() {
     "Chris",
     "Antigoni",
   ];
-  
-    const magicOutput = yourFunc(namesArray);
-  
-    return magicOutput;
-  }
+   
+  //this works
+  //  const magicOutput = namesArray.map(namesArray => namesArray.toUpperCase());
 
-  function nameToUpperCase(person) {
-      return person.toUpperCase()
-  }
- function manipulateArrey(array) {
-     const result = [];
-     for (let i = 0; i < array.length; i++) {
-         const element = array[i];
-         return result
-     }
- }
+  const magicOutput = yourFunc(namesArray);
+     
+     return magicOutput;
+    
 
-//   const magicOutput = namesArray.map(namesArray => namesArray.toUpperCase());
-
-//   return magicOutput;
-// }
-console.log(magician())
+    }
+ 
+    function toUpper (namesArray) {
+      namesArray.toUpperCase();
+      return toUpper;
+    }
+console.log(magician(toUpper()))
