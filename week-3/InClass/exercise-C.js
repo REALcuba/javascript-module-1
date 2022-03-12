@@ -15,3 +15,14 @@ function magician(yourFunc) {
   
     return magicOutput;
   }
+
+  function nameToUpperCase(person) {
+      return person.toUpperCase()
+  }
+ function manipulateArrey(array) {
+     const result = [];
+     for (let i = 0; i < array.length; i++) {
+         const element = array[i];
+         return result
+     }
+ }
