@@ -2,7 +2,7 @@ let classArr = ["Jorgelina", "Vanessa", "Carlo", "Cristiane", "Laeken"];
 let secondClass = ["Tamara", "Vincent"]
 
  let totalClass = classArr.concat(secondClass);
- totalClass = totalClass.sort();
+ sortedTotalClass = totalClass.sort();
  console.log(totalClass);
 
 function nameIncluded(name, arr) {
@@ -11,4 +11,4 @@ function nameIncluded(name, arr) {
     }else{console.log(`${name} is not at the class with ${totalClass}`)}
 }
 
-nameIncluded("joselin", totalClass);
+nameIncluded("joselin", sortedTotalClass);
