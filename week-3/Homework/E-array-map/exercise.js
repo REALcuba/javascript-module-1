@@ -2,4 +2,17 @@
 // Write multiple solutions using different syntax (as shown in the README)
 
 var numbers = [0.1, 0.2, 0.3, 0.4, 0.5];
+const multiplyByHoundredLong = numbers.map(function by100(number) {
+  return number * 100;
+});
 
+const multiplyByHoundredMedium = numbers.map(number => {
+  return number * 100
+});
+
+const multiplyByHoundredShort = numbers.map(number => number * 100);
+
+
+console.log(multiplyByHoundredLong);
+console.log(multiplyByHoundredMedium);
+console.log(multiplyByHoundredShort);
