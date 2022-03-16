@@ -17,12 +17,12 @@ function magician(yourFunc) {
   const magicOutput = yourFunc(namesArray);
      
      return magicOutput;
-    
+   
 
     }
- 
     function toUpper (namesArray) {
       namesArray.toUpperCase();
       return toUpper;
     }
+  
 console.log(magician(toUpper()))
