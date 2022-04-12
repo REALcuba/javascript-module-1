@@ -12,6 +12,8 @@ function isLongName(name) {
 function startsWithA(name) {
   return name.startsWith("A")
 }
+
+
 const findLongNameThatStartsWithA = () => {
   return  names.find(startsWithA && isLongName)
  

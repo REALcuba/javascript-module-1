@@ -13,4 +13,4 @@ const driverAgeChecker = (birthYear) => {
     }
     
 }
-birthYearArray.forEach(driverAgeChecker)
+birthYearArray.map(driverAgeChecker)

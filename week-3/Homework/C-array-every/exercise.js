@@ -5,8 +5,8 @@
 var students = ["Omar", "Austine", "Dany", "Swathi", "Lesley", "Rukmini"];
 var group = ["Austine", "Dany", "Swathi", "Daniel"];
 
-function isIncluded  (group, students)  {
-return group.includes(students)
+function isIncluded  (name)  {
+return students.includes(name)
 };
 var groupIsOnlyStudents = group.every(isIncluded) ; // complete this statement
 
