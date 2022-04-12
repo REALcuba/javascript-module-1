@@ -10,7 +10,7 @@ var myName = "Daniel";
 var danielsRole = "mentor";
 
 if (danielsRole === "mentor") {
-  console.log("Hi, I'm",myName+", I'm a mentor.");
+  console.log(`Hi, I'm ${myName}, I'm a ${danielsRole}.`);
 }else{
   console.log("Hi, I'm ", myName+", I'm a student.");
 }
