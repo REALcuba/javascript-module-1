@@ -10,6 +10,3 @@ const result2 = halve(89)
 console.log(result);
 console.log(result1);
 console.log(result2);
-
-
-
