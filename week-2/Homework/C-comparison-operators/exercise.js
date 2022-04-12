@@ -7,7 +7,7 @@
 
 var studentCount = 16;
 var mentorCount = 9;
-var moreStudentsThanMentors= studentCount>mentorCount; // finish this statement
+var isMoreStudentsThanMentors= studentCount>mentorCount; // finish this statement
 
 var roomMaxCapacity = 25;
 var enoughSpaceInRoom = roomMaxCapacity >= (studentCount + mentorCount); // finish this statement
@@ -19,7 +19,7 @@ var sameName = personA === personB; // finish this statement
 /* 
   DO NOT EDIT BELOW THIS LINE
   --------------------------- */
-console.log("Are there more students than mentors?", moreStudentsThanMentors);
+console.log("Are there more students than mentors?", isMoreStudentsThanMentors);
 console.log(
   "Is there enough space in the room for all students and mentors?",
   enoughSpaceInRoom
