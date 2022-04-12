@@ -6,6 +6,7 @@ function halve(number) {
 var result = halve(12);
 const result1 = halve(26);
 const result2 = halve(89)
+
 console.log(result);
 console.log(result1);
 console.log(result2);
