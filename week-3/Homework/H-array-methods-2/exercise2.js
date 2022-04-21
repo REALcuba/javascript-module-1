@@ -8,9 +8,16 @@
 */
 
 function capitalise(str) {
-  str.split(" ", 0);
-  return str.toUpperCase();
+  const arr = str.charAt(0).toUpperCase()
+  
+  const sliced = str.slice(1)
+  
+
+  return `${arr}`+ `${sliced}`
+
+   
 }
+
 
 /* 
   DO NOT EDIT BELOW THIS LINE
@@ -26,3 +33,5 @@ console.log(capitalise("hello"));
   Daniel
   Hello
 */
+
+
