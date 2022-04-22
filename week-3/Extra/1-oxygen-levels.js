@@ -11,8 +11,12 @@ Write a function that finds the first safe oxygen level in the array - Oxygen be
 
 function safeLevels(arr) {
     let oxigenLevel =[];
+
+
 arr.forEach( oxigen => {
-   if(oxigen > "19,5%" && oxigen < "23.5%"){
+    const number = parseFloat(oxigen)
+    console.log(number);
+   if(oxigen > "19.5%" && oxigen < "23.5%"){
        oxigenLevel.push(oxigen)
        
 }
