@@ -27,6 +27,9 @@ return letter
 
 
 }
+
+// this code works too.
+
 // function capitalise(str) {
 //   const arr = str.charAt(0).toUpperCase()
   
